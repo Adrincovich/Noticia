@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de suscripcion</h1>
+    <form>
+        <fieldset>
+            <label><b>Nombre:</b></label>
+            <input type="text" name="name">
+        </fieldset>
+        <fieldset>
+            <label><b>Apellido:</b></label>
+            <input type="text" name="surname">
+        </fieldset>
+        <fieldset>
+            <label><b>Email:</b></label>
+            <input type="email" name="email">
+        </fieldset>
+        <fieldset>
+            <label><b>Telefono:</b></label>
+            <input type="tel" name="telefono">
+        </fieldset>
+        <fieldset>
+            <label><b>Pagina web:</b></label>
+            <input type="url" name="pagina">
+        </fieldset>
+        <fieldset>
+            <label><b>Contraseña:</b></label>
+            <input type="password" name="pass">
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar una opcion:</label></b><br>
+            <label for="Opcion1">Opcion 1</label>
+            <input id="Opcion1" type="radio" name="opciones" value="Opcion1"><br>
+            <label for="Opcion2">Opcion 2</label>
+            <input id="Opcion2" type="radio" name="opciones" value="Opcion2"><br>
+            <label for="Opcion3">Opcion 3</label>
+            <input id="Opcion3" type="radio" name="opciones" value="Opcion3"><br>
+            <label for="Opcion4">Opcion 4</label>
+            <input id="Opcion4" type="radio" name="opciones" value="Opcion4">
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar una o mas opciones:</label></b><br>
+            <label for="Seleccion1">Opcion 1</label>
+            <input id="Seleccion1" type="checkbox" name="Seleccion1" value="Seleccion1"><br>
+            <label for="Seleccion2">Opcion 2</label>
+            <input id="Seleccion2" type="checkbox" name="Seleccion2" value="Seleccion2"><br>
+            <label for="Seleccion3">Opcion 3</label>
+            <input id="Seleccion3" type="checkbox" name="Seleccion3" value="Seleccion3"><br>
+            <label for="Seleccion4">Opcion 4</label>
+            <input id="Seleccion4" type="checkbox" name="Seleccion4" value="Seleccion4"><br>
+        </fieldset>
+        <fieldset>
+            <label>Opcion 1</label>
+            <input type="button" value="Boton 1"><br>
+            <label>Opcion 2</label>
+            <input type="button" value="Boton 2"><br>
+            <label>Opcion 3</label>
+            <input type="button" value="Boton 3"><br>
+            <label>Opcion 4</label>
+            <input type="button" value="Boton 4"><br>
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar color:</b></label>
+            <input type="color" name="color">
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar Fecha:</b></label>
+            <input type="date" name="date">
+            <label><b>Seleccionar hora:</b></label>
+            <input type="time" name="time">
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar archivo</b></label>
+            <input type="file" name="file">
+        </fieldset>
+        <fieldset>
+           <label><b>Seleccionar un numero del 0 al 120:</b></label>
+           <input type="number" max="120" name="numero">
+        </fieldset>
+        <fieldset>
+            <label><b>Seleccionar un valor:</b></label>
+            <input type="range" min="1" max="10" name="rango">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
