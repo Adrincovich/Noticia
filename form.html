@@ -4,41 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <title>Formulario</title>
 </head>
 <body>
-    <nav>
-         <ol>
-            <li><h1><a href="index.html">Pagina noticia</a></h1></li>
-            <li><h1><a href="form.html">Enlace a formulario</a></h1></li>
-            <li><h1><a href="tabla-ejercicio.html">Ejercicio en clase tabla</a></h1></li>
-        </ol>
-    </nav><hr>   
+    <ol>
+        <li><a href="index.html">Pagina noticia</a></li>
+        <li><a href="form.html">Enlace a formulario</a></li>
+        <li><a href="tabla-ejercicio.html">Ejercicio en clase tabla</a></li>
+    </ol><hr>
     <h1>Formulario de suscripcion</h1>
     <form>
         <fieldset>
-            <label><b>Nombre:</b></label>
-            <input type="text" name="name">
+            <label for="name"><b>Nombre:</b></label>
+            <input id="name" type="text" name="name">
         </fieldset>
         <fieldset>
-            <label><b>Apellido:</b></label>
-            <input type="text" name="surname">
+            <label for="surname"><b>Apellido:</b></label>
+            <input id="surname" type="text" name="surname">
         </fieldset>
         <fieldset>
-            <label><b>Email:</b></label>
-            <input type="email" name="email">
+            <label for="email"><b>Email:</b></label>
+            <input id="email" type="email" name="email">
         </fieldset>
         <fieldset>
-            <label><b>Telefono:</b></label>
-            <input type="tel" name="telefono">
+            <label for="telefono"><b>Telefono:</b></label>
+            <input id="telefono" type="tel" name="telefono">
         </fieldset>
         <fieldset>
-            <label><b>Pagina web:</b></label>
-            <input type="url" name="pagina">
+            <label for="pagina"><b>Pagina web:</b></label>
+            <input id="pagina" type="url" name="pagina">
         </fieldset>
         <fieldset>
-            <label><b>Contraseña:</b></label>
-            <input type="password" name="pass">
+            <label for="pass"><b>Contraseña:</b></label>
+            <input id="pass" type="password" name="pass">
         </fieldset>
         <fieldset>
             <label><b>Seleccionar una opcion:</label></b><br>
@@ -63,42 +62,41 @@
             <input id="Seleccion4" type="checkbox" name="Seleccion4" value="Seleccion4"><br>
         </fieldset>
         <fieldset>
-            <label>Opcion 1</label>
-            <input type="button" value="Boton 1"><br>
-            <label>Opcion 2</label>
-            <input type="button" value="Boton 2"><br>
-            <label>Opcion 3</label>
-            <input type="button" value="Boton 3"><br>
-            <label>Opcion 4</label>
-            <input type="button" value="Boton 4"><br>
+            <label for="boton1">Opcion 1</label>
+            <input id="boton1" type="button" value="Boton 1"><br>
+            <label for="boton2">Opcion 2</label>
+            <input id="boton2" form="boton2" type="button" value="Boton 2"><br>
+            <label for="boton3">Opcion 3</label>
+            <input id="boton3" type="button" value="Boton 3"><br>
+            <label for="boton4">Opcion 4</label>
+            <input id="boton4" type="button" value="Boton 4"><br>
         </fieldset>
         <fieldset>
-            <label><b>Seleccionar color:</b></label>
-            <input type="color" name="color">
+            <label for="color"><b>Seleccionar color:</b></label>
+            <input id="color" type="color" name="color">
         </fieldset>
         <fieldset>
-            <label><b>Seleccionar Fecha:</b></label>
-            <input type="date" name="date">
-            <label><b>Seleccionar hora:</b></label>
-            <input type="time" name="time">
+            <label for="date"><b>Seleccionar Fecha:</b></label>
+            <input id="date" type="date" name="date">
+            <label for="time"><b>Seleccionar hora:</b></label>
+            <input id="time" type="time" name="time">
         </fieldset>
         <fieldset>
-            <label><b>Seleccionar archivo</b></label>
-            <input type="file" name="file">
+            <label for="file"><b>Seleccionar archivo</b></label>
+            <input id="file" type="file" name="file">
         </fieldset>
         <fieldset>
-           <label><b>Seleccionar un numero del 0 al 120:</b></label>
-           <input type="number" min="0" max="120" name="numero">
+           <label for="numero"><b>Seleccionar un numero del 0 al 120:</b></label>
+           <input id="numero" type="number" max="120" name="numero">
         </fieldset>
         <fieldset>
-            <label><b>Seleccionar un valor:</b></label>
-            <input type="range" min="1" max="10" name="rango">
+            <label for="range"><b>Seleccionar un valor:</b></label>
+            <input id="range" type="range" min="1" max="10" name="rango">
         </fieldset>
         <fieldset>
             <input type="submit" value="Enviar">
             <input type="reset" value="Resetear">
         </fieldset>
-        
     </form>
 </body>
 </html>
