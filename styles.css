@@ -23,7 +23,6 @@ article > p {
 /* estilos header*/
 
 
-
 .menu-list {
     padding: 10px;
     margin: auto;
@@ -40,7 +39,7 @@ article > p {
     color: rgba(51,51,51,0.6);
 }
 
-/* no funciona el cambio de color */
+/* no funciona el cambio de color de hyperlink */
 .header-list {
     color: black;
 }
@@ -66,8 +65,58 @@ article > p {
     background-color: #c1c1c1;
 }
 
-.side-menu{
-    background-image: url(/icons/hamburguesa.svg);
+.side-menu {
+    margin: 10px 30px;
+}
+
+.header-logo {
+    width: auto;
+    height: 40px;
+}
+
+.search {
+    width: 20px;
+    margin: 15px;
+}
+.mundo {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+
+.suscribite {
+    position: relative;
+    left: 975px;
+    padding: 10px;
+    bottom: 4px;
+    background-color: #cc001b;
+    border-radius: 5px;
+    
+}
+.ingresar {
+    position: relative;
+    font-size: 20px;
+    left: 1000px;
+    bottom: 4px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-text-1 {
+    position: relative;
+    margin: 30px;
+    top: 10px;
+    font-weight: bold;
+    color: #444;
+    font-size: 25px;
+}
+
+.header-text-2 {
+    position: relative;
+    top: 10px;
+    color: #444;
+    font-size: 20px;
 }
 
 /* estilos main*/
@@ -165,7 +214,7 @@ article {
 /* estilos aside*/
 
 aside {
-    position: relative;
+    position:relative;
     width: 300px;
     left: 800px;
     bottom: 5250px;
@@ -174,16 +223,82 @@ aside {
     
 }
 .aside-red-text {
+    position: relative;
+    left: 150px;
+    bottom: 130px;
     color: #d80026;
     font-size: 13px;
+    line-height: 17px;
 }
 
 .aside-content {
+    width: 150px;
+    position: relative;
     font-size: 13px;
+    left: 150px;
+    bottom: 130px;
+    line-height: 17px;
 }
 
 .aside-number {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 30px;
     color: #d80026;
+}
+.aside-img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 25px;
+    left: 25px;
+}
+
+.list-ajust {
+    margin-bottom: -130px;
+}
+
+
+/* estilos footer*/
+
+footer {
+    position: relative;
+    padding-left: 50px;
+    bottom: 550px;
+}
+
+.footer-logo {
+    margin: 20px 0px;
+    width: auto;
+    height: 30px;
+}
+
+.footer-box {
+    margin-bottom: -85px;
+}
+
+
+.footer-box > p {
+    font-size: 14px;
+}
+
+.footer-text2 {
+    position: relative;
+    left: 300px;
+    bottom: 29px;
+}
+
+.footer-text3 {
+    position: relative;
+    left: 600px;
+    bottom: 58px;
+}
+
+.footer-text4 {
+    position: relative;
+    left: 950px;
+    bottom: 88px;
 }
 
 /*otros estilos*/
