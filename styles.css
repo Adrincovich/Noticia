@@ -328,6 +328,7 @@ footer {
 .footer-box p {
     width: 20%;
     display: inline-block;
+    font-size: 12px;
 }
 
 .footer-logo {
