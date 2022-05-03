@@ -111,8 +111,6 @@ article > p {
 }
 
 .suscribite a {
-    position: relative;
-    top: 5px;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
@@ -129,6 +127,7 @@ article > p {
     text-decoration: none;
 }
 
+  /* no logro acomodar la cajas en nav sin position relative*/
 .ingresar {
     position:relative;
     display: block;
@@ -144,8 +143,6 @@ article > p {
 
 .ingresar span {
     font-weight: bold;
-    position: relative;
-    top: 5px;
 }
 
 /* header texto*/
