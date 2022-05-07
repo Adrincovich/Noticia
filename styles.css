@@ -13,6 +13,14 @@ article > p {
     margin-bottom: 30px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
 /* Estilos header */
 
 .menu-list {
@@ -38,7 +46,7 @@ article > p {
     text-decoration: none;
 }
 
-.menu-listA:hover  { 
+.menu-listA:hover  {
     color: #7e7e7e;
     text-decoration: none;
 }
@@ -51,15 +59,21 @@ article > p {
     text-decoration: none;
 }
 
-
 /* Estilos NAV*/
 
 .nav-bar {
+    position: relative;
     margin-bottom: 2px;
     width: 100%;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.911);
 }
+
+.nav-bar-list {
+    position: relative;
+    height: 100%;
+}
+
 .nav-bar li {
     display: inline-block;
     text-align: center;
@@ -68,7 +82,6 @@ article > p {
 
 .side-menu {
     margin: 15px 15px 15px 40px;
-    
     height: 14px;
     width: 21px;
     background-repeat: no-repeat;
@@ -83,66 +96,66 @@ article > p {
 }
 
 .header-logo {
+    position: relative;
+    bottom: 10px;
     margin: 15px;
     width: 95px;
     height:19px;
     background-repeat: no-repeat;
-    background-image: url(icons/logo-clarin-blanco.svg);
+    /*background-image: url(icons/logo-clarin-blanco.svg);*/
 }
 
 .mundo {
     position: relative;
     color: white;
     font-size: 30px;
-    bottom: 15px;
+    bottom: 10px;
     margin-right: 50%;
 }
 
 .suscribite {
-    position:relative;
+    position: relative;
     display: block;
     width: 150px;
     height: 30px;
     background-color: #cc001b;
     color: white;
-    bottom: 25px;
+    bottom: 15px;
     border-radius: 5px;
     text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
 }
 
-.suscribite a {
+.ingresar {
+    position: relative;
+    bottom: 15px;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.suscribite a, .ingresar a {
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
     display: inline;
 }
 
-.suscribite a:link {
+.suscribite a:link, .ingresar a:link {
     color: white;
     text-decoration: none;
 }
 
-.suscribite a:visited {
+.suscribite a:visited, .ingresar a:visited {
     color: white;
     text-decoration: none;
-}
-
-  /* no logro acomodar la cajas en nav sin position relative*/
-.ingresar {
-    position:relative;
-    display: block;
-    margin: 5px;
-    width: 100px;
-    height: 30px;
-    color: white;
-    bottom: 25px;
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid white;
-}
-
-.ingresar span {
-    font-weight: bold;
 }
 
 /* header texto*/
@@ -174,7 +187,6 @@ article > p {
     text-decoration: none;
 }
 
-
 .header-text-2 a:visited {
     color:#444;    ;
     text-decoration: none;
@@ -191,6 +203,34 @@ article > p {
 .title-image {
     width: 942px;
     height: 465px;
+}
+
+h1 {
+    color: #cc001b;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    color: #888;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+h6 {
+    width: 400px;
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
 }
 
 /*estilos contenidos adicionales*/
@@ -213,7 +253,7 @@ article > p {
     color:#d80026;
     font-size: 18px;
   }
-  
+
   .info-content-add-button {
       font-size: 11px;
       color: #888;
@@ -223,7 +263,6 @@ article > p {
     color:#d80026;
     text-decoration: none;
 }
-
 
 .info-content-add-top a:visited {
     color:#d80026;
@@ -240,7 +279,7 @@ p a:visited {
     color:#d80026;
 }
 
-p a:hover  { 
+p a:hover  {
     color: #444;
     transition: 1s;
 }
@@ -255,6 +294,14 @@ p a:visited:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text-post-image {
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: small;
+    line-height: 20px;
 }
 
 /* Estilos aside*/
@@ -314,7 +361,7 @@ border-bottom: 1px solid #333;
     width: 260px;
 }
 
-* estilos footer*/
+/* estilos footer*/
 
 footer {
     display: inline-block;
@@ -335,50 +382,4 @@ footer {
     background-image: url(icons/logo_clarin-gray.svg);
     width: 100%;
     height: 100px;
-}
-
-/* Estilos varios*/
-
-h1 {
-    color: #cc001b;
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-h3 {
-    color: #888;
-    font-size: 20px;
-    margin: 50px 0px;
-}
-
-h4 {
-    font-size: 25px;
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-
-h5 {
-    margin-bottom: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    font-size: small;
-    line-height: 20px;
-}
-
-h6 {
-    width: 400px;
-    font-size: 18px;
-    color: #333;
-    line-height: 30px;
-}
-
-strong {
-    font-weight: bold;
-}
-
-i {
-    font-style: italic;
 }
