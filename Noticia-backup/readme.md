@@ -1,4 +1,4 @@
-**Noticia clase 4 y 5:  index.html - con css - mobile first**
+**Noticia clase 4:  index.html - con css**
 >https://www.clarin.com/mundo/guerra-rusia-ucrania-expertos-explosivos-buscan-restos-cohetes-rusos-ruinas-jarkov_0_mkE8kdLnBj.html
 
 

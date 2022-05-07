@@ -1,0 +1,385 @@
+/*  Estilos generales*/
+
+* {
+    font-family: Velino-Headline-Book, Georgia,'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+article > p {
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+/* Estilos header */
+
+.menu-list {
+    padding: 10px 1px 10px 20px;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+
+.menu-list li {
+    font-weight: bold;
+    font-size: 11px;
+    display:inline-block;
+    margin: 0px 5px;
+}
+
+#datetime {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.menu-list a:link {
+    color: rgba(8, 8, 8, 0.808);
+    text-decoration: none;
+}
+
+.menu-listA:hover  {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+.menu-list a:visited:hover {
+    color: #7e7e7e;
+}
+
+.menu-list a:visited {
+    color: rgba(8, 8, 8, 0.808);
+    text-decoration: none;
+}
+
+/* Estilos NAV*/
+
+.nav-bar {
+    position: relative;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.nav-bar-list {
+    position: relative;
+    height: 100%;
+}
+
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+.side-menu {
+    margin: 15px 15px 15px 40px;
+    height: 14px;
+    width: 21px;
+    background-repeat: no-repeat;
+    background-image: url(icons/hamburguesa.svg);
+}
+.search {
+    margin: 15px;
+    height: 14px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-image: url(icons/search.svg);
+}
+
+.header-logo {
+    position: relative;
+    bottom: 10px;
+    margin: 15px;
+    width: 95px;
+    height:19px;
+    background-repeat: no-repeat;
+    /*background-image: url(icons/logo-clarin-blanco.svg);*/
+}
+
+.mundo {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    bottom: 10px;
+    margin-right: 50%;
+}
+
+.suscribite {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: #cc001b;
+    color: white;
+    bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.ingresar {
+    position: relative;
+    bottom: 15px;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.suscribite a, .ingresar a {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    display: inline;
+}
+
+.suscribite a:link, .ingresar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.suscribite a:visited, .ingresar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* header texto*/
+
+.header-text {
+    height: 50px;
+    background-color: #c1c1c1;
+}
+
+.header-text .header-text-1 {
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.header-text-1 {
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+    font-size: 25px;
+    margin: 10px 30px;
+}
+
+.header-text-2 {
+    color: #444;
+    font-size: 18px;
+}
+
+.header-text-2 a:link {
+    color: #444;
+    text-decoration: none;
+}
+
+.header-text-2 a:visited {
+    color:#444;    ;
+    text-decoration: none;
+}
+
+/* estilos de titulos*/
+
+.title {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.title-image {
+    width: 942px;
+    height: 465px;
+}
+
+h1 {
+    color: #cc001b;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    color: #888;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+h6 {
+    width: 400px;
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+
+/*estilos contenidos adicionales*/
+
+.info-content {
+    display: inline-block;
+    width: 48%;
+    margin-left: 70px;
+}
+.info-content-add {
+    margin: 30px 0px;
+}
+
+.info-content-add-top {
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    margin: 30px 0px;
+    padding: 30px 0px;
+    font-weight: bold;
+    color:#d80026;
+    font-size: 18px;
+  }
+
+  .info-content-add-button {
+      font-size: 11px;
+      color: #888;
+  }
+
+  .info-content-add-top a:link {
+    color:#d80026;
+    text-decoration: none;
+}
+
+.info-content-add-top a:visited {
+    color:#d80026;
+    text-decoration: none;
+}
+
+/* Estilos articulo*/
+
+p a:link {
+    color: #d80026;
+}
+
+p a:visited {
+    color:#d80026;
+}
+
+p a:hover  {
+    color: #444;
+    transition: 1s;
+}
+p a:visited:hover {
+    color: #444;
+    transition: 0.1s;
+}
+
+.img {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-post-image {
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: small;
+    line-height: 20px;
+}
+
+/* Estilos aside*/
+
+aside {
+    float:right;
+    width: 45%;
+    height: 50%;
+    font-weight: bold;
+}
+aside ol {
+    display: inline-block;
+    width: 400px;
+    margin: 20px 0px;
+}
+
+.list-ajust {
+margin: 10px 0px;
+padding: 10px 0px;
+border-bottom: 1px solid #333;
+}
+
+#list-ajust-1 {
+    border-top: 2px solid rgba(51, 51, 51, 0.781);
+}
+
+.aside-red-text {
+    display: inline-block;
+    left: 150px;
+    bottom: 130px;
+    color: #d80026;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.aside-content {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.aside-number {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #d80026;
+}
+
+.aside-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.aside-box {
+    float: right;
+    width: 260px;
+}
+
+/* estilos footer*/
+
+footer {
+    display: inline-block;
+    padding-left: 50px;
+    bottom: 550px;
+}
+
+.footer-box p {
+    width: 20%;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.footer-logo {
+    border-top: 1px solid #333;
+    border-bottom:  1px solid #333;;
+    background-repeat: no-repeat;
+    background-image: url(icons/logo_clarin-gray.svg);
+    width: 100%;
+    height: 100px;
+}
