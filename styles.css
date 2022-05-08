@@ -23,22 +23,32 @@ i {
 
 /* Estilos header */
 
+header {
+    position: sticky;
+    top: -85px;
+}
+
 .menu-list {
+    position: relative;
+    overflow: hidden;
     padding: 10px 1px 10px 20px;
     background-color: #ffffff;
     font-size: 13px;
+    white-space: nowrap;
 }
 
 .menu-list li {
+    display:inline-block;
+    overflow: hidden;
     font-weight: bold;
     font-size: 11px;
-    display:inline-block;
     margin: 0px 5px;
 }
 
 #datetime {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+    position: absolute;
 }
 
 .menu-list a:link {
@@ -62,7 +72,10 @@ i {
 /* Estilos NAV*/
 
 .nav-bar {
-    position: relative;
+    position: sticky;
+    display: block;
+    white-space: nowrap;
+    top: 0px;
     margin-bottom: 2px;
     width: 100%;
     height: 50px;
@@ -102,7 +115,6 @@ i {
     width: 95px;
     height:19px;
     background-repeat: no-repeat;
-    /*background-image: url(icons/logo-clarin-blanco.svg);*/
 }
 
 .mundo {
@@ -110,7 +122,6 @@ i {
     color: white;
     font-size: 30px;
     bottom: 10px;
-    margin-right: 50%;
 }
 
 .suscribite {
@@ -161,6 +172,8 @@ i {
 /* header texto*/
 
 .header-text {
+    overflow-x: hidden;
+    white-space: nowrap;
     height: 50px;
     background-color: #c1c1c1;
 }
@@ -201,8 +214,8 @@ i {
 }
 
 .title-image {
-    width: 942px;
-    height: 465px;
+    width: 542px;
+    height: 265px;
 }
 
 h1 {
@@ -237,9 +250,10 @@ h6 {
 
 .info-content {
     display: inline-block;
-    width: 48%;
+    width: 65%;
     margin-left: 70px;
 }
+
 .info-content-add {
     margin: 30px 0px;
 }
@@ -307,11 +321,11 @@ p a:visited:hover {
 /* Estilos aside*/
 
 aside {
-    float:right;
-    width: 45%;
+    margin-left: 70px;
     height: 50%;
     font-weight: bold;
 }
+
 aside ol {
     display: inline-block;
     width: 400px;
@@ -344,6 +358,8 @@ border-bottom: 1px solid #333;
 }
 
 .aside-number {
+    position: relative;
+    bottom: 40px;
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -384,10 +400,40 @@ footer {
     height: 100px;
 }
 
-@media only screen and(min-width: 768px) {
-
+@media only screen and (min-width: 768px) {
+    /* Estilos NAV*/
+    .suscribite {
+        margin-left: 18%;
+    }
+    /*Imagen*/
+    .title-image {
+        width: 642px;
+        height: 315px;
+    }
 }
 
-@media only screen and(min-width: 1024px) {
-
+@media only screen and (min-width: 1024px) {
+    /* Estilos NAV*/
+    .suscribite {
+        margin-left: 40%;
+    }
+    /* Imagen */
+    .title-image {
+        width: 942px;
+        height: 465px;
+    }
+    /*Articulo*/
+    .info-content {
+        display: inline-block;
+        width: 48%;
+        margin-left: 70px;
+    }
+    /*Aside*/
+    aside {
+        float:right;
+        width: 45%;
+        height: 50%;
+        font-weight: bold;
+        margin-left: 0px;
+    }
 }
